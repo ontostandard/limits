@@ -1,0 +1,133 @@
+{
+ "name": "ONTO Limits demo set",
+ "version": "1.0",
+ "n": 25,
+ "note": "25 real claims from product pages, press releases and news. Never used in training.",
+ "claims": [
+  {
+   "id": "DEMO-D1-0",
+   "text": "\"GE's LED Corn Bulb (MPN: 93312096) provides 30,000 Lumens for bright lighting ... It consumes 180 Watts and has a warm 3000K color temperature for comfort ... Plus, with an energy intake of 180 Watts and output of 30,000 Lumens, this lamp provides an excellent 175 LPW.\"",
+   "source": "https://1000bulbs.com/product/229099/GE-93312096.html"
+  },
+  {
+   "id": "DEMO-D1-1",
+   "text": "\"Features a cutting-edge 50W XHQ99.2 LED chip delivering 100,000 lumens... The LED torch has a very bright 100000 lumens: The torch is equipped with a 2023 50W XHQ99.2 chip\"",
+   "source": "https://www.walmart.com/ip/18049356245"
+  },
+  {
+   "id": "DEMO-D1-4",
+   "text": "\"With 800W high power. ... With a 43-inch rotor diameter, it efficiently maximizes power generation efficiency. ... With 1.0m/s start-up wind speed, 11m/s rated wind speed, and 32m/s safe wind speed, ... Rated Power: 800W ... Wind Wheel Diameter: 1.0/1.1m\"",
+   "source": "https://www.walmart.com/ip/17831307223"
+  },
+  {
+   "id": "DEMO-D1-5",
+   "text": "\"High-output 1000W panel compatible with DC 12V–18V systems ... High-capacity portable solar charging solution designed to power 12V–18V systems and charge USB devices on the go.\"",
+   "source": "https://www.intercyprus.com/products/1000w-flexible-solar-panel-dc-12v-18v-dual-usb-solar-cell-with-10a-100a-controller-power-bank-for-moblie-phone-ipad-home-outdoor"
+  },
+  {
+   "id": "DEMO-D1-6",
+   "text": "\"High output of 100 W with an energy conversion rate over 23%. ... Foldable and portable weighing 3.4 kg, suitable for home use, RVs, boats, and camping. ... Rated Power: 100 W ... Efficiency Rate: 25.4 % ... Cell Type: ETFE TOPCON ... Dimensions: 1030 x 450 x 2 mm\"",
+   "source": "https://www.skroutz.mt/s/64582873/topcon-flexible-monocrystalline-solar-panel-100w-1030x450x2mm.html"
+  },
+  {
+   "id": "DEMO-D1-7",
+   "text": "\"600W24V Wind turbine system ... Rated output power 600W ... Rotor blade diameter 2.4 / 2.5m ... Rated wind speed 10m/s ... Start-up wind speed 2.5m/s\"",
+   "source": "https://lemona.lt/Files/Instrukcijos/Pdf/WWS06-24 parameters.pdf"
+  },
+  {
+   "id": "DEMO-D1-8",
+   "text": "\"OSRAM Classic LED bulb, filament, E27, 2.2 W, 4,000 K - excellent energy efficiency ... It is particularly efficient and offers a light output of 470 lm ... equivalent to a conventional 40 W traditional light bulb ... excellent luminous efficiency (213 lm / W), extremely economical (A label) ... very long rated service life (50,000 operating hours)\"",
+   "source": "https://lights.ie/p/osram-led-classic-filament-e27-2-2-w-470-lm-4-000-k-10028641.html"
+  },
+  {
+   "id": "DEMO-D1-9",
+   "text": "\"Model X-2000 ... Rated Power 1500 W ... Max Power 2000 W ... Start-up Wind Speed 1,8 m/s ... Rated Wind Speed 13 m/s ... Output Voltage 48 V ... Rotor Diameter 1,90 m ... Quantity of Blades 5 pcs ... Net Weight /Gross weight/ Packing 24.5 kg /28 kg/ 111*61*28 cm\"",
+   "source": "https://www.arestipower.gr/wp-content/uploads/xmsAssets/Xseries_tech_specs.pdf"
+  },
+  {
+   "id": "DEMO-D1-10",
+   "text": "\"delivering an astonishing 200,000 lumens ... Luminous Flux | 150000 Lumen ... Wattage | 18.5 Watt-hours ... Voltage | 5 Volts\"",
+   "source": "https://www.desertcart.com.cy/products/491174745-gehavin-rechargeable-high-power-led-flashlight-200000-high-lumens-super"
+  },
+  {
+   "id": "DEMO-D1-12",
+   "text": "\"Maximum power (pmax): 42W ... Size (Unfolded): 585*425*3mm/23*16.8*0.2inch ... Size (folded): 425*285*25mm/16.8*11.3*0.2inch ... Conversion rate: 25% ... The conversion rate of our portable solar panel is up to 25%. ... Maximum/Peak Voltage(VMP) : 18V ... Open Circuit Voltage(VOC): 20V\"",
+   "source": "https://www.walmart.com/ip/3144033082"
+  },
+  {
+   "id": "DEMO-D1-13",
+   "text": "\"2000W rated output with a maximum of 2050W. ... Low start-up wind speed of 1.3 m/s. ... Compact design with a 1.1 m rotor diameter. ... Rotor Diameter 1.1 m ... Blade Height 1.64 m ... Rated Wind Speed 12 m/s ... Weight 75 kg\"",
+   "source": "https://www.afrimart.co.za/product/x2000-2000w-vertical-axis-wind-turbine--12v24v48v-3phase-maglev-generator"
+  },
+  {
+   "id": "DEMO-D2-2",
+   "text": "\"The pilot plant requires an electric input power of 1.6 kW and generates an electric output of 11.8 kW.\"",
+   "source": "https://www.intellinews.com/montenegro-s-wvc-to-build-100-mw-kinetic-power-plant-171343"
+  },
+  {
+   "id": "DEMO-D2-6",
+   "text": "\"CoP @ A7W35: 5.26 for superior performance ... CoP @ A7W55: 3.07 for efficient home heating\"",
+   "source": "https://jtdove.co.uk/products/warmflow-r290-zeno-air-source-heat-pump-only-515kw"
+  },
+  {
+   "id": "DEMO-D2-7",
+   "text": "\"The units, designed to operate at steam temperatures of 600 degrees Celsius (1,112 degrees Fahrenheit), will achieve cycle efficiencies of 46%, which is much higher than the average efficiency of 36% achieved by bituminous coal-fired power plants in Europe.\"",
+   "source": "https://www.industrialinfo.com/news/article/alstom-to-supply-two-800-megawatt-ultra-supercritical-boilers-for-rwe-powers-eemshaven-coal-fired-po--145088"
+  },
+  {
+   "id": "DEMO-D2-8",
+   "text": "\"At next month's Hannover Fair, the Brazilian motor manufacturer WEG is launching an \"IE5\" permanent-magnet (PM) motor with a rated efficiency of 96.6% and \"significantly\" lower losses than IE4 motors.\"",
+   "source": "https://drivesncontrols.com/news/fullstory.php/aid/4339/.html"
+  },
+  {
+   "id": "DEMO-D2-9",
+   "text": "\"The new three-phase string inverters are available at power outputs of 10, 12.5 and 15kVA. The transformer-less design yields a maximum efficiency rate of 98% and an EU efficiency rate exceeding 97% ... with a maximum input voltage of 1000V.\"",
+   "source": "https://eepower.com/new-industry-products/aeg-power-solutions-launches-new-three-phase-string-inverters/"
+  },
+  {
+   "id": "DEMO-D2-11",
+   "text": "\"Cofficient of performance,COP (BS EN 14511 - air 7°/ water 35°): 4.91 ... Heat Output: 6 kW ... £2,530\"",
+   "source": "https://www.wickes.co.uk/Grant-Aerona-3-HPID10R32BODY-R32-Inverter-Driven-Air-Source-Heat-Pump---6kW/p/302633"
+  },
+  {
+   "id": "DEMO-D2-12",
+   "text": "\"Rated kW 5.20 7.10 8.00 ... EER Cooling kW/kW 3.42 3.23 3.21 ... Cooling : Indoor temperature of 27 °CDB/19 °CWB and outdoor temperature of 35 °CDB/24 °CWB\"",
+   "source": "https://webstore.uk.fujitsu-general.com/product/attachment/ASYG24LFCC/specifications.pdf"
+  },
+  {
+   "id": "DEMO-D2-14",
+   "text": "\"Delivers up to 16.0 COP, giving you more heat from less energy ... COP range 6.4 to 16.0. ... Current Price $6,900.00\"",
+   "source": "https://nonstopswim.com/products/madimack-inverelite-116k-btu-inverter-heat-pump-heat-cool"
+  },
+  {
+   "id": "DEMO-D3-1",
+   "text": "\"500W Vertical Axis Wind Turbine Generator 12V with Controller Home Windmill Kit ... US $218.04 ... Power 500 W ... Rated Wind Speed 13m/42.65ft/ s ... Wheel Diameter 0.4m/1.31ft ... Product Size(L*H) 40*71cm/15.75*27.95in ... Net Weight 9kg/19.84lbs ... Voltage 12 V\"",
+   "source": "https://www.ebay.com/itm/396642924789"
+  },
+  {
+   "id": "DEMO-D3-2",
+   "text": "\"One gram of DNA can hold close to 1 billion terabytes—or 1 zettabyte—of data. ... So you could store the entire internet. In a gram.\"",
+   "source": "https://www.backupassist.com/blog/dna-data-storage-future"
+  },
+  {
+   "id": "DEMO-D3-4",
+   "text": "\"Oxford PV has built the most efficient solar panel ever made. ... The solar cell can convert 25% of the sun's energy it receives into electricity, compared to an industry average of between 15-20%.\"",
+   "source": "https://thenextweb.com/news/oxford-spinout-pv-world-record-for-most-efficient-solar-panel"
+  },
+  {
+   "id": "DEMO-D3-5",
+   "text": "\"... comes at power ratings from 650-680W and very high module efficiencies of up to 25.2%\"",
+   "source": "https://aikosolar.com/en/news-unveils-abc-modules-at-2024-asew/"
+  },
+  {
+   "id": "DEMO-D3-6",
+   "text": "\"Nominal power 350 W ... Nominal wind speed 12.5 m/s ... Rotor diameter 1.20 m ... Total weight 12.0 kg ... Nominal voltage 12 V ... €3,284.30 Tax included\"",
+   "source": "https://www.wattuneed.com/en/wind-turbine/27464-superwind-sw-350-ii-silent-12v-wind-turbine-350w-0768563821493.html"
+  },
+  {
+   "id": "DEMO-D3-10",
+   "text": "\"The AR1500 is a Lockheed Martin designed, 1.5MW horizontal axis turbine complete with active pitch and yaw capability. ... The rotor diameter is 18 meters ... The nacelle weighs approximately 150 tonnes in air and has a design life of 25 years.\"",
+   "source": "https://www.energy-xprt.com/products/tidal-power-turbine-systems-419085"
+  }
+ ]
+}
