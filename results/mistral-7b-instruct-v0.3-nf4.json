@@ -1,0 +1,160 @@
+{
+ "model": "mistralai/Mistral-7B-Instruct-v0.3",
+ "settings": {
+  "quant": "nf4",
+  "decoding": "greedy",
+  "max_new_tokens": 256
+ },
+ "answers": [
+  {
+   "id": "DEMO-D1-0",
+   "answer": "impossible",
+   "limit": "white_light",
+   "raw": "{\"answer\": \"impossible\", \"limit\": \"luminous_efficacy\"}"
+  },
+  {
+   "id": "DEMO-D1-1",
+   "answer": "impossible",
+   "limit": "white_light",
+   "raw": "{\"answer\": \"impossible\", \"limit\": \"luminous_efficacy\"}"
+  },
+  {
+   "id": "DEMO-D1-4",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"betz\"}"
+  },
+  {
+   "id": "DEMO-D1-5",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\"answer\": \"possible\", \"limit\": null}"
+  },
+  {
+   "id": "DEMO-D1-6",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"efficiency rate\"}"
+  },
+  {
+   "id": "DEMO-D1-7",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\"answer\": \"possible\", \"limit\": null}"
+  },
+  {
+   "id": "DEMO-D1-8",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\"answer\": \"possible\", \"limit\": \"luminous_efficacy\"}"
+  },
+  {
+   "id": "DEMO-D1-9",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"other\"}"
+  },
+  {
+   "id": "DEMO-D1-10",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"luminous_efficacy\"}"
+  },
+  {
+   "id": "DEMO-D1-12",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"luminous_efficacy\"}"
+  },
+  {
+   "id": "DEMO-D1-13",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"betz\"}"
+  },
+  {
+   "id": "DEMO-D2-2",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"other\"}"
+  },
+  {
+   "id": "DEMO-D2-6",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"none\"}"
+  },
+  {
+   "id": "DEMO-D2-7",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"carnot\"}"
+  },
+  {
+   "id": "DEMO-D2-8",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"other\"}"
+  },
+  {
+   "id": "DEMO-D2-9",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\"answer\": \"possible\", \"limit\": \"none\"}"
+  },
+  {
+   "id": "DEMO-D2-11",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"carnot\"}"
+  },
+  {
+   "id": "DEMO-D2-12",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"none\"}"
+  },
+  {
+   "id": "DEMO-D2-14",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"carnot\"}"
+  },
+  {
+   "id": "DEMO-D3-1",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"betz\"}"
+  },
+  {
+   "id": "DEMO-D3-2",
+   "answer": "impossible",
+   "limit": "dna_per_gram",
+   "raw": "{\"answer\": \"impossible\", \"limit\": \"information_density\"}"
+  },
+  {
+   "id": "DEMO-D3-4",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\"answer\": \"possible\", \"limit\": \"shockley_queisser\"}"
+  },
+  {
+   "id": "DEMO-D3-5",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\"answer\": \"possible\", \"limit\": \"shockley_queisser\"}"
+  },
+  {
+   "id": "DEMO-D3-6",
+   "answer": "need_data",
+   "limit": null,
+   "raw": "{\"answer\": \"need_data\", \"limit\": \"other\"}"
+  },
+  {
+   "id": "DEMO-D3-10",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\"answer\": \"possible\", \"limit\": null}"
+  }
+ ]
+}

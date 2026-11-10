@@ -1,0 +1,160 @@
+{
+ "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+ "settings": {
+  "quant": "nf4",
+  "decoding": "greedy",
+  "max_new_tokens": 256
+ },
+ "answers": [
+  {
+   "id": "DEMO-D1-0",
+   "answer": "impossible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"luminous_efficiency\"\n}"
+  },
+  {
+   "id": "DEMO-D1-1",
+   "answer": "impossible",
+   "limit": "white_light",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"luminous_efficacy\"\n}"
+  },
+  {
+   "id": "DEMO-D1-4",
+   "answer": "impossible",
+   "limit": "betz",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"betz\"\n}"
+  },
+  {
+   "id": "DEMO-D1-5",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  },
+  {
+   "id": "DEMO-D1-6",
+   "answer": "impossible",
+   "limit": "carnot",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"carnot\"\n}"
+  },
+  {
+   "id": "DEMO-D1-7",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  },
+  {
+   "id": "DEMO-D1-8",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  },
+  {
+   "id": "DEMO-D1-9",
+   "answer": "possible",
+   "limit": null,
+   "raw": "```json\n{\n  \"answer\": \"possible\",\n  \"limit\": null\n}\n```"
+  },
+  {
+   "id": "DEMO-D1-10",
+   "answer": "impossible",
+   "limit": "white_light",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"luminous_efficacy\"\n}"
+  },
+  {
+   "id": "DEMO-D1-12",
+   "answer": "impossible",
+   "limit": "shockley_queisser",
+   "raw": "```json\n{\n  \"answer\": \"impossible\",\n  \"limit\": \"shockley_queisser\"\n}\n```"
+  },
+  {
+   "id": "DEMO-D1-13",
+   "answer": "impossible",
+   "limit": "betz",
+   "raw": "```json\n{\n  \"answer\": \"impossible\",\n  \"limit\": \"betz\"\n}\n```"
+  },
+  {
+   "id": "DEMO-D2-2",
+   "answer": "impossible",
+   "limit": "carnot",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"carnot\"\n}"
+  },
+  {
+   "id": "DEMO-D2-6",
+   "answer": "impossible",
+   "limit": "carnot",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"carnot\"\n}"
+  },
+  {
+   "id": "DEMO-D2-7",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  },
+  {
+   "id": "DEMO-D2-8",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  },
+  {
+   "id": "DEMO-D2-9",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  },
+  {
+   "id": "DEMO-D2-11",
+   "answer": "impossible",
+   "limit": "carnot",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"carnot\"\n}"
+  },
+  {
+   "id": "DEMO-D2-12",
+   "answer": "impossible",
+   "limit": "carnot",
+   "raw": "```json\n{\n  \"answer\": \"impossible\",\n  \"limit\": \"carnot\"\n}\n```"
+  },
+  {
+   "id": "DEMO-D2-14",
+   "answer": "impossible",
+   "limit": "carnot",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"carnot\"\n}"
+  },
+  {
+   "id": "DEMO-D3-1",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  },
+  {
+   "id": "DEMO-D3-2",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  },
+  {
+   "id": "DEMO-D3-4",
+   "answer": "impossible",
+   "limit": "shockley_queisser",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"shockley_queisser\"\n}"
+  },
+  {
+   "id": "DEMO-D3-5",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  },
+  {
+   "id": "DEMO-D3-6",
+   "answer": "impossible",
+   "limit": "betz",
+   "raw": "{\n  \"answer\": \"impossible\",\n  \"limit\": \"betz\"\n}"
+  },
+  {
+   "id": "DEMO-D3-10",
+   "answer": "possible",
+   "limit": null,
+   "raw": "{\n  \"answer\": \"possible\",\n  \"limit\": null\n}"
+  }
+ ]
+}

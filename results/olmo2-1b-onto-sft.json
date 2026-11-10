@@ -1,0 +1,131 @@
+{
+ "model": "olmo2-1b-onto-sft",
+ "mode": "verdict",
+ "answers": [
+  {
+   "id": "DEMO-D1-0",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D1-1",
+   "answer": "impossible",
+   "limit": "white_light"
+  },
+  {
+   "id": "DEMO-D1-10",
+   "answer": "impossible",
+   "limit": "white_light"
+  },
+  {
+   "id": "DEMO-D1-12",
+   "answer": "need_data",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D1-13",
+   "answer": "impossible",
+   "limit": "betz_power"
+  },
+  {
+   "id": "DEMO-D1-4",
+   "answer": "unclear",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D1-5",
+   "answer": "need_data",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D1-6",
+   "answer": "need_data",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D1-7",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D1-8",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D1-9",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D2-11",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D2-12",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D2-14",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D2-2",
+   "answer": "impossible",
+   "limit": "first_law_any"
+  },
+  {
+   "id": "DEMO-D2-6",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D2-7",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D2-8",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D2-9",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D3-1",
+   "answer": "impossible",
+   "limit": "betz_power"
+  },
+  {
+   "id": "DEMO-D3-10",
+   "answer": "impossible",
+   "limit": "betz_power"
+  },
+  {
+   "id": "DEMO-D3-2",
+   "answer": "need_data",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D3-4",
+   "answer": "possible",
+   "limit": null
+  },
+  {
+   "id": "DEMO-D3-5",
+   "answer": "impossible",
+   "limit": "shockley_queisser"
+  },
+  {
+   "id": "DEMO-D3-6",
+   "answer": "possible",
+   "limit": null
+  }
+ ]
+}
