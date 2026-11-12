@@ -27,21 +27,33 @@ Raw answers for every row are in [`results/`](results). Reproduce any row:
 python score.py results/qwen2.5-coder-7b-instruct-nf4.json
 ```
 
-## Results on 100 real claims (closed set, aggregate numbers only)
+## Results on the closed sets (aggregate numbers only)
 
-The same task on a larger set we keep closed, so that it keeps measuring: 100 real claims, of which 47 are impossible, 36 possible and 17 lack the data to decide. Answers were judged by two blind judges with a third on disagreements.
+Two larger sets we keep closed, so that they keep measuring. v1: 100 real claims (47 impossible, 36 possible, 17 lack the data to decide). v2: 101 real claims (29 / 44 / 28), never used for development.
+
+**Frontier model, consumer chat, one pass, scored against the key with no AI judge:**
+
+| Set · condition | Impossible found, right limit | False "impossible" on possible | "Need data" said correctly |
+| --- | --- | --- | --- |
+| v1 · no library | 44 of 47 | 0 of 36 | 11 of 17 |
+| v2 · no library | 25 of 29 | 0 of 44 | 14 of 28 |
+| v2 · with the limits library | 27 of 29 | 0 of 44 | 20 of 28 |
+
+On v2 the library did not reliably help a frontier model: +2 impossible claims found, exact McNemar p = 0.625, our pre-registered criterion for "it helps" failed. What the frontier model lacks is not physics but saying "not enough data" when that is the true answer. On "need data" claims it also called 3 of 28 impossible without the library, 1 of 28 with it. One pass in a chat, not an API run with fixed versions; a repeated API run across several models is in progress.
+
+**Smaller models, v1, judged by two blind AI judges with a third on disagreements:**
 
 | Who answers | Impossible found, right limit (of 47) | False "impossible" (of 36) |
 | --- | --- | --- |
-| Frontier model, with the limits library | 47 | 0 |
-| Frontier model, without the library | 42 | 0 |
 | Qwen2.5-Coder 7B, through the library | 22 | 4 |
 | Mistral 7B, forced to give a verdict | 16 | 3 |
 | OLMo-2 1B, ONTO method | 15 | 6 |
 | Mistral 7B, plain answer | 12 | 4 |
 | Qwen2.5-Coder 7B, plain answer | 9 | 1 |
 
-The library of limits is enough to decide these claims: a strong reader with it gets all 47. Smaller models fail at reading the numbers out of the text, not at the physics. Mistral 7B called the library once in 100 claims, so its gain came from being made to give a verdict, not from the library. The background: [The library is enough. The reader isn't.](reports/2026-11-10-the-library-is-enough.md)
+7B rows are 4-bit NF4. Mistral 7B called the library once in 100 claims, so its gain came from being made to give a verdict, not from the library.
+
+**Correction, 12 November 2026.** An earlier version of this page said a frontier model found 42 of 47 without the library and 47 of 47 with it, and that "the library of limits is enough". Those frontier figures came from an agent setup that overstated the result. The clean runs above replace them.
 
 ## Test your own model
 

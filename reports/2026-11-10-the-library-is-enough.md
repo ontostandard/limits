@@ -2,6 +2,9 @@
 
 *What training a 1B open model to say "impossible" taught us about tool use, hallucination and reading.*
 
+> **Correction, 12 November 2026.** The frontier-model figures in this report came from an agent setup that overstated the result. In a clean, pre-registered rerun on the 101-claim closed set, the library added 2 found claims to a frontier model (27 vs 25 of 29, McNemar p = 0.625), so "the library is enough" is not supported for frontier readers. The finding about the small model's floor of false "impossible" stands. Current numbers: [README](../README.md).
+
+
 Published on Medium on 10 November 2026: https://medium.com/@ontostandard/the-library-is-enough-the-reader-isnt-939fa7bb0f4f
 
 A product page sells a 500 W wind turbine with a 0.4 m rotor. A press release says a pilot plant takes 1.6 kW in and gives 11.8 kW out. A flashlight promises 100,000 lumens from a 50 W chip. You do not need an expert to check any of these. You need a few lines of arithmetic and one physical limit for each.
