@@ -55,6 +55,32 @@ On v2 the library did not reliably help a frontier model: +2 impossible claims f
 
 **Correction, 12 November 2026.** An earlier version of this page said a frontier model found 42 of 47 without the library and 47 of 47 with it, and that "the library of limits is enough". Those frontier figures came from an agent setup that overstated the result. The clean runs above replace them.
 
+## What models know but do not say (12 November 2026)
+
+On the same closed sets (201 real claims: 45 lack the figure that decides them), the frontier model above said "not enough data" correctly in only 25 of 45 cases. We asked whether open models carry that information inside.
+
+**Inside versus spoken.** A linear probe on the last-token hidden state, trained on 1,750 synthetic claims, tested once on the 201 real claims (AUROC for "not enough data"):
+
+| Model | Probe (inside) | Spoken answer | Text-surface baseline |
+| --- | --- | --- | --- |
+| Qwen2.5-Coder-7B-Instruct | 0.81 | 0.51 | 0.64 |
+| OLMo-2-1124-7B-Instruct | 0.78 | 0.49 | 0.64 |
+| Qwen2.5-Coder-0.5B-Instruct (control) | 0.63 | 0.52 | 0.64 |
+
+Controls: a TF-IDF classifier on the same training texts reaches 0.57 on the real claims; the probe beats the best text baseline by +0.16 (95% CI +0.08 to +0.25) and +0.13 (+0.03 to +0.24). Greedy answers show the two 7B models failing in opposite ways: Qwen says "not enough data" often and without discrimination (17 of 45 right, 60 of 156 wrong), OLMo almost never (1 of 45).
+
+**A small fine-tune.** LoRA on the four blocks above the probe layer only (0.04% of weights), three-way loss on the first answer token, both classes in every batch, two seeds, preregistered:
+
+| | Before | Seed 0 | Seed 1 |
+| --- | --- | --- | --- |
+| Spoken "not enough data", AUROC | 0.52 | 0.80 | 0.82 |
+| False "not enough data", of 156 | 69 | 18 | 27 |
+| Possible versus impossible, AUROC | 0.74 | 0.76 | 0.79 |
+
+Verdict against the preregistered gates: between success and failure (the false-alarm bar was 16 of 156). An ablation of the probe subspace showed that the fine-tune learned its own readout in the top blocks rather than reading the probe direction, so we do not claim it transfers the probe signal. The gap between linearly decodable and spoken answerability is known from earlier work (Slobodkin et al., 2023); what is new here is real-world claims with a third "not enough data" class and a fix that did not produce the mirrored failure our earlier fine-tunes did.
+
+Code and preregistrations: [`experiments/`](experiments/). The 201 claims and their key stay closed so they keep measuring.
+
 ## Test your own model
 
 1. Give your model each `text` from [`data/claims.json`](data/claims.json). A prompt that works is in [`examples/run_hf.py`](examples/run_hf.py), which also runs any Hugging Face model end to end:
